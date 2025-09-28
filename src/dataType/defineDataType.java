@@ -3,7 +3,8 @@ package dataType;
 public class defineDataType{
     public static void main(String[] args) {
 
-        // -------- Primitive Data Types --------
+        // -------- Primitive Data Types ----------
+    	
     	//Person's age
         byte age = 45;              // 1 byte
         
@@ -15,6 +16,7 @@ public class defineDataType{
         
         //11.Number of followers on a social media platform: 1,000,000
         int followers = 100000;            // 4 bytes
+        
         //Person's phone number: "123-456-7890"
         long phNumber = 1234567890L;     // 8 bytes (if we are going with only numbers)
         
@@ -29,12 +31,13 @@ public class defineDataType{
         
         //Amount of money in a customer's bank account: 1000.50
         float balance = -238.50f;
+        
         //Coordinates of a location (latitude, longitude): 37.7749, -122.4194
         double lat = 37.7749;  // 8 bytes
         double lon = -122.4194;
         
         //13.Person's blood type: 'A'
-        char bloodtype = 'A';              // 2 bytes (Unicode character)
+        char bloodtype = 'A';              // 2 bytes 
         
        // Whether a customer has placed an order: true or false
         boolean orderPlaced = true;       // 1 bit
@@ -72,7 +75,7 @@ public class defineDataType{
          //Person's phone number: "123-456-7890"
          String phoneNumber = "123-456-7890";  //(if we want to print as it is)
 
-        // -------- Output --------
+        // --------------- Output --------------
         System.out.println("Person's age: " + age);
         System.out.println("Current year: " + year);
         System.out.println("Number of employees: " + employeesNumber);

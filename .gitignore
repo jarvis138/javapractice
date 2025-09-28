@@ -1,0 +1,18 @@
+# Eclipse
+.metadata/
+*.classpath
+*.project
+.settings/
+
+# Build output
+bin/
+target/
+build/
+.gradle/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
