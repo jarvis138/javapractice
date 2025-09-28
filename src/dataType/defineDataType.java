@@ -26,7 +26,7 @@ public class defineDataType{
         //Rating of a movie: 7.5
         float rating = 7.5f;
         
-        //Distance between two cities: 200.5
+        //Distance between two cities: 200.5 
         float distance = 200.5f;
         
         //Amount of money in a customer's bank account: 1000.50
